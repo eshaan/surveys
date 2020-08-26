@@ -35,10 +35,9 @@ NOTE: Currently the data is just coming from a set of json files under /src/data
 ## Tradeoffs
 
 - Didn't add progressive loader screens:
-  Due to time limitations, I couldn't integrate loaders to screens. I would have used progressive loaders using a dummy data set but re-utilizing the container styles to show a loading state till the data is fetched. (Athough I do have in place the flags to detect when the data is in fetching vs fetched state)
+  I haven't integrated loaders to screens. I would have used progressive loaders using a dummy data set but re-utilizing the container styles to show a loading state till the data is fetched. (Athough I do have in place the flags to detect when the data is in fetching vs fetched state)
 - Didn't used any data visualization library/bootstrap components for showing average rating for each question. Instead I've tried using my own implementation with use of linear-gradient.
 - Could refactor the styling part to have common styles across different components for reusability.
-- Couldn't add unit tests due to time constraint.
 - Could use pagination for bigger surveys.
 - Haven't used any logging library for logging errors.
 
